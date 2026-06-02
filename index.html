@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GhostOverride vX</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
 
+<body>
+
+    <!-- BACKGROUND GLOW LAYERS -->
+    <div class="bg-glow"></div>
+    <div class="bg-noise"></div>
+
+    <div class="container">
+
+        <!-- HERO -->
+        <header class="hero glass">
+
+            <img src="assets/applogo.png" class="logo" alt="logo"/>
+
+            <h1>GhostOverride vX</h1>
+
+            <p class="subtitle">
+                PLACEHOLDER DESCRIPTION LINE 1<br>
+                PLACEHOLDER DESCRIPTION LINE 2
+            </p>
+
+            <a class="download-btn" href="downloads/ghost-override-vx.apk" download>
+                Download APK
+            </a>
+
+        </header>
+
+        <!-- SCREENSHOTS -->
+        <section class="carousel glass">
+
+            <button class="nav left" onclick="prevSlide()">‹</button>
+
+            <div class="carousel-window">
+                <img id="slide" src="assets/screenshots/1.png" />
+            </div>
+
+            <button class="nav right" onclick="nextSlide()">›</button>
+
+            <div class="counter" id="counter">1 / 6</div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
